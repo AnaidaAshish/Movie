@@ -1,0 +1,32 @@
+.cast-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.cast-card__image {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+}
+
+.cast-card__details {
+  padding: 1rem;
+}
+
+.cast-card__name {
+  font-weight: bold;
+  font-size: 1.125rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cast-card__character {
+  color: gray;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

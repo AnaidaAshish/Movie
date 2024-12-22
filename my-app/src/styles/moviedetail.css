@@ -1,0 +1,89 @@
+.movie-detail {
+    padding: 2rem 0;
+  }
+  
+  .movie-detail-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .movie-detail-grid {
+      grid-template-columns: minmax(300px, 1fr) 2fr;
+    }
+  }
+  
+  .movie-poster {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .movie-overview {
+    color: #666;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+  }
+  
+  .movie-meta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .meta-item h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cast-section {
+    margin-top: 3rem;
+  }
+  
+  .cast-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .cast-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cast-card img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+  }
+  
+  .cast-info {
+    padding: 1rem;
+  }
+  
+  .cast-name {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  
+  .cast-character {
+    color: #666;
+    font-size: 0.9rem;
+  }

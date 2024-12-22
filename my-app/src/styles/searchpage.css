@@ -1,0 +1,48 @@
+.search-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: red;
+  font-size: 1.25rem;
+}
+
+.retry-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.retry-button:hover {
+  background-color: darkblue;
+}
+
+.no-results {
+  text-align: center;
+  color: gray;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
